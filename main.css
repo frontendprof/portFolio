@@ -66,7 +66,7 @@ header{
     box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
     text-decoration: none;
     text-align:center;
-    padding:12px 0;
+    padding:22px 0;
     transition: all .3s ease;
 
 }
@@ -84,12 +84,41 @@ header{
     display: none;
 }
 
-.menu-item a:hover, .menu-item a.active{
+.menu-item a:hover, 
+.menu-item a.active{
     box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #3e3e3e;
     padding: 12px;
 }
 
 .menu-item a:hover span, 
-.menu-item a.active span{
+.menu-item a.active span {
     display: block;
+}
+
+.part1{
+    color:#fff;
+    height: 100%;
+    margin:auto;
+}
+
+.my_name, .my_desc, .more_desc, .social_icons{
+    padding:15px;
+}
+
+.social_icons i{
+    padding:0 15px;
+    font-size: 1.5rem;
+}
+
+.my_name{
+    color:#ffb55a;
+}
+
+.my_desc, .more_desc{
+    opacity: 0.7;
+}
+
+.social_icons i:hover{
+    color:#ffb55a;
+    cursor: pointer;
 }
