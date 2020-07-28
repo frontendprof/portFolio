@@ -50,3 +50,36 @@ header{
     opacity:1;
 }
 
+.menu-items{
+    margin:70px 0 0 0;
+    padding:0;
+
+}
+
+.menu-item{
+    list-style-type: none;
+    background-color: transparent;
+    border:none;
+    margin:10px;
+}
+
+.menu-item a{
+    color:#ffb55a;
+    height: 60px;
+    width: 60px;
+    display: block;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+    text-decoration: none;
+    text-align:center;
+    padding:12px 0;
+    transition: all .3s ease;
+
+}
+
+
+.menu-item a i{
+    font-weight: bold;
+    display: inline-block;
+    margin:auto;
+}
