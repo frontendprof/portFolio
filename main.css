@@ -30,3 +30,23 @@ header{
     left:0;
     z-index: 3;
 }
+
+.navbar-brand{
+    color:#ffb55a;
+    text-align:center;
+    font-size:30px;
+    margin:0;
+    width:100%;
+}
+
+.navbar-brand span{
+    opacity:0.2;
+    font-size: 18px;
+}
+
+.navbar-brand:hover,
+.navbar-brand span:hover{
+    color:#ffb55a;
+    opacity:1;
+}
+
